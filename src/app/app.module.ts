@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { GuidesComponent } from './guides/guides.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
-import { ResourcesComponent } from './resources/resources.component';
+import { BlogsComponent } from './blogs/blogs.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HomepageComponent,
     GuidesComponent,
     TutorialsComponent,
-    ResourcesComponent,
+    BlogsComponent,
     DashboardComponent
   ],
   imports: [

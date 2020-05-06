@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { GuidesComponent } from '../guides/guides.component';
 import { TutorialsComponent } from '../tutorials/tutorials.component';
-import { ResourcesComponent } from '../resources/resources.component';
+import { BlogsComponent } from '../blogs/blogs.component';
 
 const routes: Routes = [
   {
@@ -22,8 +22,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'resources',
-    component: ResourcesComponent,
+    path: 'blogs',
+    component: BlogsComponent,
     pathMatch: 'full'
   },
 ];
