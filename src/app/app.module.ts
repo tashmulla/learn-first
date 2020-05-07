@@ -9,6 +9,9 @@ import { GuidesComponent } from './guides/guides.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { WebDevelopmentComponent } from './guides/web-development/web-development.component';
+import { InfrastructureComponent } from './guides/infrastructure/infrastructure.component';
+import { DeveloperToolsComponent } from './guides/developer-tools/developer-tools.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     GuidesComponent,
     TutorialsComponent,
     BlogsComponent,
-    DashboardComponent
+    DashboardComponent,
+    WebDevelopmentComponent,
+    InfrastructureComponent,
+    DeveloperToolsComponent
   ],
   imports: [
     BrowserModule,
