@@ -16,23 +16,44 @@
   height: auto;
 }
 
+.web-dev-elements-header {
+  text-decoration: underline;
+}
+
 .building-block {
   text-align: center;
 }
 
-.original-simba {
-  height: 300px;
-  width: auto;
+.building-block-image {
+  justify-content: center;
 }
 
-.bigger-simba {
-  height: 400px;
-  width: auto;
+.original-macbook {
+  height: 100%;
+  width: 100%;
 }
 
-.moving-simba {
-  height: 400px;
-  width: auto;
+.smaller-macbook {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.show-hide-macbook {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .btn-toolbar {

@@ -16,12 +16,12 @@ export class WebDevelopmentComponent implements OnInit {
 
   ngAfterViewInit() {
     $(document).ready(function() {
-      $(".hide-simba").click(() => {
-      $(".moving-simba").hide();
+      $(".hide-macbook").click(() => {
+      $(".show-hide-macbook").hide();
       });
 
-      $(".show-simba").click(() => {
-        $(".moving-simba").show();
+      $(".show-macbook").click(() => {
+        $(".show-hide-macbook").show();
         });
     });
   }
