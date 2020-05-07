@@ -1,0 +1,45 @@
+.web-dev-intro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.explanation-what-header {
+  text-decoration: underline;
+}
+
+.explanation-what-text {
+  text-align: justify;
+}
+
+.web-dev-explanation-gallery {
+  width: 100%;
+  height: auto;
+}
+
+.building-block {
+  text-align: center;
+}
+
+.original-simba {
+  height: 300px;
+  width: auto;
+}
+
+.bigger-simba {
+  height: 400px;
+  width: auto;
+}
+
+.moving-simba {
+  height: 400px;
+  width: auto;
+}
+
+.btn-toolbar {
+  justify-content: center;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-left: 10px;
+}

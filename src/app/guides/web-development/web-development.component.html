@@ -1,1 +1,56 @@
-<p>web-development works!</p>
+<body>
+  <app-navbar></app-navbar>
+  <div class="web-dev-intro">
+    <h3 class="web-dev-header">Web Development</h3>
+    <hr>
+  </div>
+  <div class="row container-fluid">
+    <div class="web-dev-explanation col-sm-6">
+      <h5 class="explanation-what-header">What is it?</h5>
+      <p class="explanation-what-text">
+        Web Development is what builds the websites and web applications that we use in our everyday lives.
+        It involves everything from making a simple website to a mammoth social media platform.
+        <br>
+        <br>
+        Websites can be styled and designed as beautifully as you like. Check out Apple's <a href="https://www.apple.com/iphone-se/">iPhone SE</a>
+         webpage (and just keep scrolling...) to see what can be possible with web development!
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <img src="../../../assets/apple.png" class="web-dev-explanation-gallery">
+    </div>
+  </div>
+  <hr>
+    <div class="col-sm-6">
+      <h5 class="web-dev-elements-header">How are webpages built?</h5>
+      <p class="web-dev-elements-text">
+        Websites are created using three main building blocks:
+      </p>
+      <ul>
+        <li><b>HTML</b> - the text and images on the page</li>
+        <li><b>CSS</b> - how you want the text and images to look</li>
+        <li><b>Javascript</b> - adding behaviour to your website to make it dynamic and interactive</li>
+      </ul>
+      <br>
+      <p>Let's see these three building blocks in action with the help of Simba...</p>
+      <br>
+    </div>
+    <div class="row container-fluid">
+      <div class="col-sm-4 building-block">
+        <p>HTML - showing the image of Simba</p>
+        <img class="original-simba" src="../../../assets/simba-original.gif">
+      </div>
+      <div class="col-sm-4 building-block">
+        <p>CSS - making Simba bigger</p>
+        <img class="bigger-simba" src="../../../assets/simba-original.gif">
+      </div>
+      <div class="col-sm-4 building-block">
+        <p>Javascript - making Simba disappear and re-appear!</p>
+        <div class="btn-toolbar">
+          <button type="button" class="btn btn-danger hide-simba">Hide Simba</button>
+          <button type="button" class="btn btn-success show-simba">Show Simba</button>
+        </div>
+        <img class="moving-simba" id="simba" src="../../../assets/simba-original.gif">
+      </div>
+    </div>
+</body>

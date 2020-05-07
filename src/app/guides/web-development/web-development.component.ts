@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild, ViewChildren, Host } from '@angular/core';
+// import * as $ from 'jquery';
+declare var $: any;
 
 @Component({
   selector: 'app-web-development',
@@ -12,4 +14,15 @@ export class WebDevelopmentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  ngAfterViewInit() {
+    $(document).ready(function() {
+      $(".hide-simba").click(() => {
+      $(".moving-simba").hide();
+      });
+
+      $(".show-simba").click(() => {
+        $(".moving-simba").show();
+        });
+    });
+  }
 }
