@@ -4,7 +4,9 @@
 }
 
 .explanation-what-header {
+  text-align: center;
   text-decoration: underline;
+  margin-bottom: 50px;
 }
 
 .explanation-what-text {
@@ -17,11 +19,17 @@
 }
 
 .web-dev-elements-header {
+  text-align: center;
   text-decoration: underline;
+  margin-bottom: 50px;
 }
 
 .building-block {
   text-align: center;
+}
+
+.show-hide-div {
+  display: block;
 }
 
 .building-block-image {
@@ -56,11 +64,23 @@
   bottom: 0;
 }
 
-.btn-toolbar {
-  justify-content: center;
+.btn-group {
+  display: flex;
 }
 
 .btn {
+  width: -webkit-fill-available;
+  height: fit-content;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.web-dev-get-started-header {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.next-button {
+  text-align: center;
 }
