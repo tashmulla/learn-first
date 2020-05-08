@@ -8,6 +8,9 @@ import { BlogsComponent } from '../blogs/blogs.component';
 import { WebDevelopmentComponent } from '../guides/web-development/web-development.component';
 import { InfrastructureComponent } from '../guides/infrastructure/infrastructure.component';
 import { DeveloperToolsComponent } from '../guides/developer-tools/developer-tools.component';
+import { HtmlComponent } from '../guides/web-development/html/html.component';
+import { CssComponent } from '../guides/web-development/css/css.component';
+import { JavascriptComponent } from '../guides/web-development/javascript/javascript.component';
 
 const routes: Routes = [
   {
@@ -32,6 +35,21 @@ const routes: Routes = [
   {
     path: 'guides/web-development',
     component: WebDevelopmentComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'guides/web-development/html',
+    component: HtmlComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'guides/web-development/css',
+    component: CssComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'guides/web-development/javascript',
+    component: JavascriptComponent,
     pathMatch: 'full'
   },
   {

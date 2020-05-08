@@ -12,6 +12,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { WebDevelopmentComponent } from './guides/web-development/web-development.component';
 import { InfrastructureComponent } from './guides/infrastructure/infrastructure.component';
 import { DeveloperToolsComponent } from './guides/developer-tools/developer-tools.component';
+import { HtmlComponent } from './guides/web-development/html/html.component';
+import { CssComponent } from './guides/web-development/css/css.component';
+import { JavascriptComponent } from './guides/web-development/javascript/javascript.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { DeveloperToolsComponent } from './guides/developer-tools/developer-tool
     DashboardComponent,
     WebDevelopmentComponent,
     InfrastructureComponent,
-    DeveloperToolsComponent
+    DeveloperToolsComponent,
+    HtmlComponent,
+    CssComponent,
+    JavascriptComponent
   ],
   imports: [
     BrowserModule,
