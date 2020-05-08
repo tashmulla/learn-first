@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { GuidesComponent } from './guides/guides.component';
-import { TutorialsComponent } from './tutorials/tutorials.component';
-import { BlogsComponent } from './blogs/blogs.component';
+import { AboutComponent } from './about/about.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { WebDevelopmentComponent } from './guides/web-development/web-development.component';
 import { InfrastructureComponent } from './guides/infrastructure/infrastructure.component';
@@ -22,8 +21,7 @@ import { JavascriptComponent } from './guides/web-development/javascript/javascr
     NavbarComponent,
     HomepageComponent,
     GuidesComponent,
-    TutorialsComponent,
-    BlogsComponent,
+    AboutComponent,
     DashboardComponent,
     WebDevelopmentComponent,
     InfrastructureComponent,

@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { GuidesComponent } from '../guides/guides.component';
-import { TutorialsComponent } from '../tutorials/tutorials.component';
-import { BlogsComponent } from '../blogs/blogs.component';
+import { AboutComponent } from '../about/about.component';
 import { WebDevelopmentComponent } from '../guides/web-development/web-development.component';
 import { InfrastructureComponent } from '../guides/infrastructure/infrastructure.component';
 import { DeveloperToolsComponent } from '../guides/developer-tools/developer-tools.component';
@@ -23,13 +22,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'tutorials',
-    component: TutorialsComponent,
-    pathMatch: 'full'
-  },
-  {
-    path: 'blogs',
-    component: BlogsComponent,
+    path: 'about',
+    component: AboutComponent,
     pathMatch: 'full'
   },
   {
