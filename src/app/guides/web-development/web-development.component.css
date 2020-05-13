@@ -16,6 +16,9 @@
 .web-dev-explanation-gallery {
   width: 100%;
   height: auto;
+  border: 1px;
+  border-style: solid;
+  border-color: #b4b4b4;
 }
 
 .web-dev-elements-header {

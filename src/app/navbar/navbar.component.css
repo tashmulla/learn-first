@@ -1,12 +1,12 @@
 .navbar {
-  background-color: rgb(96, 117, 209);
+  background-color: rgb(139, 28, 41);
 }
 
 .navbar-brand {
   color: white;
 }
 
-.navbar-nav { 
+.navbar-nav {
   display: inline-block;
 }
 
