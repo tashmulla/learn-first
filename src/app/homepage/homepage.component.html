@@ -12,4 +12,7 @@
     </p>
     <img src="../../assets/homepage-mac.jpg" class="homepage-mac">
   </div>
+  <button *ngIf="Pwa.promptEvent" (click)="installPwa()">
+    Install
+  </button>
 </div>

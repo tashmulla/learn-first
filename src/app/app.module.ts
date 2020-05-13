@@ -14,6 +14,9 @@ import { DeveloperToolsComponent } from './guides/developer-tools/developer-tool
 import { HtmlComponent } from './guides/web-development/html/html.component';
 import { CssComponent } from './guides/web-development/css/css.component';
 import { JavascriptComponent } from './guides/web-development/javascript/javascript.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+import { PwaService } from "./pwa.service";
 
 @NgModule({
   declarations: [
@@ -32,9 +35,12 @@ import { JavascriptComponent } from './guides/web-development/javascript/javascr
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [
+    PwaService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
