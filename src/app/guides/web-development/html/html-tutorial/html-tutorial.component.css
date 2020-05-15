@@ -5,3 +5,12 @@
 .next-button {
   text-align: center;
 }
+
+.step-header {
+  font-size: large;
+}
+
+.html-webpage {
+  width: 900px;
+  height: auto;
+}
