@@ -17,6 +17,8 @@ import { JavascriptComponent } from './guides/web-development/javascript/javascr
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { PwaService } from "./pwa.service";
+import { HtmlIntroComponent } from './guides/web-development/html/html-intro/html-intro.component';
+import { HtmlTutorialComponent } from './guides/web-development/html/html-tutorial/html-tutorial.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { PwaService } from "./pwa.service";
     DeveloperToolsComponent,
     HtmlComponent,
     CssComponent,
-    JavascriptComponent
+    JavascriptComponent,
+    HtmlIntroComponent,
+    HtmlTutorialComponent
   ],
   imports: [
     BrowserModule,
