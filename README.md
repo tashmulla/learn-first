@@ -1,10 +1,12 @@
-# Learn First
+# Learn First - WIP
 
-A website compiling useful resources for helping budding technologists get into technology.
+A website built with Angular, compiling useful resources for helping budding technologists get into technology.
+
+![alt text](src/assets/preview.png "Preview")
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Use node version 12.0 and run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
